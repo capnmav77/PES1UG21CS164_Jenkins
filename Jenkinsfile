@@ -19,6 +19,7 @@ pipeline {
             steps {
                 sh 'echo "This is Deploy stage."' 
                 sh 'echo "Deployment Success" '
+                sh 'echo "Deployment Failed" 
             }
         }
     }
