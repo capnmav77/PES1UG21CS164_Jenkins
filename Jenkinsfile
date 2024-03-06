@@ -11,7 +11,7 @@ pipeline {
         stage('Test') { 
             steps {
                 sh 'echo "This is Test stage."' 
-                sh './output'
+                sh './out'
 
             }
         }
